@@ -98,7 +98,7 @@ const questions = [
     type: 'checkbox',
     name: 'license',
     message: 'Choose one of the following licenses for your project:',
-    choices: ['MIT', 'GNU', 'Other', 'None']
+    choices: ['MIT', 'GNU', 'None']
   },
   {
     type: 'insert',
