@@ -25,7 +25,6 @@ function renderLicenseSection(license) {
   return license.map(el => {
     if (el === 'MIT') {
       return `
-  ## License
   MIT License
 
   Copyright <YEAR> <COPYRIGHT HOLDER>
@@ -49,7 +48,6 @@ function renderLicenseSection(license) {
       `;
     } else if (el === 'GNU') {
       return `
-  ## License
   GNU GENERAL PUBLIC LICENSE
   Version 3, 29 June 2007
 
@@ -109,6 +107,7 @@ function generateMarkdown(data) {
   ## Questions
   Have Questions? Ask them at ${data.github} or ${data.email}
 
+  ## License
   ${renderLicenseSection(data.license)}
   
 `;
