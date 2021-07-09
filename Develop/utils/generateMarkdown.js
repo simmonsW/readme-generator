@@ -92,7 +92,7 @@ function generateMarkdown(data) {
   ## Installation
   ${data.install}
 
-  ## Use
+  ## How to Use
   ${data.usage}
 
   ## Collaborators
@@ -105,7 +105,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  Have Questions? Ask them at ${data.github} or ${data.email}
+  Have Questions? Ask them at <a href="http://github.com/${data.github}">${data.github}</a> or <a href="mailto:${data.email}">${data.email}</a>
 
   ## License
   ${renderLicenseSection(data.license)}
