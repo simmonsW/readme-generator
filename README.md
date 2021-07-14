@@ -5,6 +5,7 @@
   * [Technologies used](#technologies-used)
   * [Installation](#installation)
   * [How to Use](#How-to-use)
+  * [Demo](#demo)
   * [Collaborators](#collaborators)
   * [Github Link](#github-link)
     
@@ -22,6 +23,11 @@
 
   ## How to Use
   Once the user starts the application, they will be asked to enter the name of their project and to describe it. Then they will be asked if they would like to include an optional table of contents. Following this, users will then be asked to elaborate on how others can install their project and how to use the project. Users will then be asked to list any contributors to the project, and how others can test it. Next, users are given the option to include a license for their project. Finally, users are asked to enter their GitHub name and their email address so that others can reach out to them with questions. Upon completion, the generated README.md file will be saved in the Develop folder of this application.
+
+  ## Demo
+  Check out this demo video below:
+  
+  https://youtu.be/oUTFEc33b7A
 
   ## Collaborators
   Wyatt Simmons Xander Rapstine (for starter code)
